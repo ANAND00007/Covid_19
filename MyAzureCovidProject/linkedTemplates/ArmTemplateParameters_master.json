@@ -14,6 +14,9 @@
 		"Is_link_for_datalakestorage_properties_typeProperties_url": {
 			"value": "https://covidprojectdatalake.dfs.core.windows.net/"
 		},
+		"trigger_ingest_pop_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/a4b5f70f-5bb5-4716-bf6d-f64dfdc4d044/resourceGroups/Covid_project/providers/Microsoft.Storage/storageAccounts/covidprojectdatastorage"
+		},
 		"containerUri": {
 			"value": ""
 		},
