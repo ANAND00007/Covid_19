@@ -1,0 +1,17 @@
+{
+	"name": "trigger_ingest_pop_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/population/blobs/population_by_age.tsv.gz",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/a4b5f70f-5bb5-4716-bf6d-f64dfdc4d044/resourceGroups/Covid_project/providers/Microsoft.Storage/storageAccounts/covidprojectdatastorage",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
